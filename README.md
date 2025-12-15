@@ -147,13 +147,14 @@ The selected mode is remembered.
 ## Cross-Platform Strategy
 
 | Platform | Supported Modes |
-|--------|-----------------|
-| Mobile | Manual / Assist / AI |
-| Web | Assist / AI |
-| TV | AI only |
-| Car | AI + Energy control |
+|---------|------------------|
+| Mobile  | Manual / Assist / AI |
+| Web     | Assist / AI |
+| TV      | AI only |
+| Car     | AI + Energy control |
 
 DJ Engine scales naturally across ecosystems.
+
 
 ## Platform Applicability
 
@@ -171,18 +172,6 @@ recommendation systems, and cross-device ecosystems.
 YouTube Music is referenced in this document purely as an example of a platform
 where DJ Engine naturally fits due to its scale, diversity of content, and
 multi-platform presence (mobile, web, TV, car).
-
-
----
-
-## Platform Example (Reference)
-
-YouTube Music is used as a **reference example** due to:
-- large and diverse catalog
-- strong contextual signals
-- cross-platform ecosystem (mobile, web, TV, car)
-
-DJ Engine itself is **platform-agnostic** by design.
 
 ---
 
@@ -219,3 +208,10 @@ It is:
 ## One-Liner
 
 > **DJ Engine turns music streaming from track switching into real-time DJ mixing.**
+
+---
+
+## Citation / Attribution
+
+If you reference or build upon this concept, please credit:
+**Andrew Pakhomov (2025)** — “DJ Engine for Music Streaming Platforms”.
