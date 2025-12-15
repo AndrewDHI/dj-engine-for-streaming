@@ -155,6 +155,24 @@ The selected mode is remembered.
 
 DJ Engine scales naturally across ecosystems.
 
+## Platform Applicability
+
+DJ Engine is designed as a **platform-agnostic architecture** and can be
+integrated into any music streaming service that provides:
+
+- continuous audio playback
+- access to track metadata
+- real-time playback control
+
+Examples of suitable platforms include large-scale music streaming services
+such as YouTube Music, as well as other platforms with similar catalog size,
+recommendation systems, and cross-device ecosystems.
+
+YouTube Music is referenced in this document purely as an example of a platform
+where DJ Engine naturally fits due to its scale, diversity of content, and
+multi-platform presence (mobile, web, TV, car).
+
+
 ---
 
 ## Platform Example (Reference)
