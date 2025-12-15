@@ -144,6 +144,88 @@ The selected mode is remembered.
 
 ---
 
+## UI / UX Philosophy
+
+DJ Engine is not a new interface — it is a new **behavior mode** of the music player.
+
+The core UX principle is **progressive disclosure**:
+users are never forced to interact with DJ controls unless they want to.
+Complexity is revealed gradually as the user’s intent and experience grow.
+
+---
+
+### Three UX Levels — One Engine
+
+DJ Engine supports three distinct user mental models within the same system.
+
+#### AI DJ — “I just want music to flow”
+Designed for the majority of listeners.
+
+- The standard playback UI remains mostly unchanged
+- No track selection or deck controls are exposed
+- The user controls *mood*, not mechanics
+
+Key controls:
+- **Energy** — intensity of the mix progression
+- **Vibe** — overall musical mood
+- Visual indicator showing when the next mix will occur
+
+The experience feels like a continuous, living music stream.
+
+---
+
+#### Assist DJ — “I want to participate”
+Designed for engaged listeners and non-professional DJs.
+
+- A second track (Deck B) becomes visible
+- Cue logic is introduced in a simplified form
+- The system suggests optimal mix timing
+
+The transition **never happens without user confirmation**.
+
+This mode allows users to feel in control without the risk of breaking the flow.
+
+---
+
+#### Manual DJ — “I know what I’m doing”
+Designed for advanced users.
+
+- Compact DJ-style mixer layout
+- Two decks, crossfader, cue/master mix, EQ
+- No prompts, no automation decisions
+
+In this mode, DJ Engine behaves purely as an instrument.
+
+---
+
+### UI Reflects Musical Reality
+
+DJ Engine UI communicates **musical structure**, not technical abstractions.
+
+Examples:
+- “Next mix in 8 bars” instead of countdown timers
+- Energy instead of volume
+- Vibe instead of genre lists
+
+The interface speaks the language of music, not software.
+
+---
+
+### Why This UX Scales
+
+DJ Engine does not introduce new navigation layers.
+It lives inside the existing *Now Playing* experience and can be enabled or disabled at any time.
+
+This allows:
+- effortless use on mobile
+- reduced complexity on TV
+- safe interaction in cars
+- deeper control on desktop
+
+One concept scales across platforms without fragmenting the product.
+
+---
+
 ## Cross-Platform Strategy
 
 | Platform | Supported Modes |
