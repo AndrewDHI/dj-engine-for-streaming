@@ -1,6 +1,6 @@
 # DJ Engine for Music Streaming Platforms
 
-Author: Andrey Pakhomov  
+Author: Andrew Pakhomov  
 Year: 2025  
 Status: Concept / Architecture Proposal  
 
